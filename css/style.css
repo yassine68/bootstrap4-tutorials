@@ -1,0 +1,104 @@
+.bgCover {
+	background-image: url('../images/imageCover.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 210px;
+	color: white;
+}
+.Simg {
+	width: 100px;
+	height: 100px;
+	display: block;
+	padding-bottom: 5px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.items {
+	color: black;
+	text-align: center;
+	margin-top: 5px;
+}
+
+span,
+p {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: oblique;
+	font-size: 1em;
+}
+
+span {
+	color: lightslategray;
+}
+
+.para {
+	padding-top: 0;
+	background-color: gray;
+	color: white;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	margin-bottom: 2em;
+}
+
+/*---------- Upper Bar  Start Css ---------- */
+
+.Upper-bar,
+.Upper-bar span {
+	background-color: #024c6f;
+	color: whitesmoke;
+	font-size: 0.9em;
+	padding: 0.8%;
+}
+
+.log-reg button {
+	font-size: 0.8em;
+	opacity: 0.9;
+}
+
+/*---------- Upper Bar  Ends Css ---------- */
+
+/*---------- Nav Bar  Start Css ---------- */
+
+.homePageLogoImage {
+	width: 3.75em;
+	height: 3.75em;
+
+}
+
+nav {
+	font-size: 0.9em;
+}
+
+.DropHelp {
+	font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+	.logoHome {
+		display: none;
+	}
+}
+
+/*---------- Nav Bar  Ends Css ---------- */
+
+footer {
+	padding: 1%;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.Simg {
+		width: 60px;
+		height: 60px;
+	}
+
+	span,
+	p {
+		text-align: left;
+		font-size: 1em;
+	}
+
+	span {
+		color: rgb(113, 62, 161);
+	}
+}
+
+
